@@ -21,5 +21,6 @@ int main()
 {
     Shape *ptr = new Circle();
     ptr->draw();
+    delete ptr; // Clean up memory
     return 0;
 }
